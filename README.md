@@ -2,10 +2,6 @@
 
 This portfolio uses plain HTML, CSS, and JavaScript. It does not need Node.js, npm, React, or Next.js.
 
-## Run it
-1. Extract the ZIP.
-2. Open the folder in VS Code.
-3. Double-click `index.html` to open it in a browser, or use VS Code Live Server.
 
 ## Add your profile photo
 Copy your photo into the `images` folder and name it exactly `abebe.jpg`. The page uses:
