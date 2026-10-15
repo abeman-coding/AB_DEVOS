@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abebe Manaye — Software Engineer, Full-Stack Developer, and App Developer.">
+  <title>AB_devos | Abebe Manaye</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="AB_devos home">
+      <span class="brand-mark">AB<span>.</span></span><span>AB_devos</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><i data-lucide="menu"></i></button>
+    <nav class="nav" id="nav">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch light and dark theme"><i data-lucide="sun-moon"></i></button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEER · DEVELOPER</p>
+        <p class="hello">Hello, I'm</p>
+        <h1>Abebe <span class="gradient-text">Manaye</span></h1>
+        <h2 class="role-line">Software Engineer <span>/</span> Full-Stack Developer <span>/</span> App Developer</h2>
+        <p class="hero-description">I build modern web and mobile experiences with clean code, thoughtful design, and a focus on solving real problems.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><i data-lucide="folder-code"></i> Explore Projects</a>
+          <a class="button button-outline" href="#contact"><i data-lucide="send"></i> Contact Me</a>
+        </div>
+        <div class="social-row" aria-label="Social links">
+          <a href="https://t.me/theButcher_0" target="_blank" rel="noreferrer" aria-label="Telegram"><i data-lucide="send"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+          <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer" aria-label="TikTok"><i data-lucide="music-2"></i></a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div>
+        <div class="floating-tag tag-top"><span class="tag-icon"><i data-lucide="code-2"></i></span><span><b>Clean code</b><small>Built with purpose</small></span></div>
+        <div class="avatar-stage" id="avatarStage">
+          <div class="photo-frame">
+            <img src="Restored Portrait by Weathered Window.png" alt="Profile photo of Abebe Manaye" class="profile-photo" onerror="this.style.display='none';document.getElementById('photoFallback').style.display='grid'">
+            <div id="photoFallback" class="photo-fallback">AB<span>DEVOS</span></div>
+          </div>
+          <div class="ring ring-one"></div><div class="ring ring-two"></div>
+          <span class="orbit-dot dot-one"></span><span class="orbit-dot dot-two"></span><span class="orbit-dot dot-three"></span>
+        </div>
+        <div class="floating-tag tag-bottom"><span class="tag-icon cyan"><i data-lucide="rocket"></i></span><span><b>Ideas into reality</b><small>Learn · Build · Improve</small></span></div>
+        <div class="tech-chip chip-js">JS</div><div class="tech-chip chip-html">HTML</div><div class="tech-chip chip-css">CSS</div>
+      </div>
+    </section>
+
+    <section class="welcome-section section reveal" aria-labelledby="welcomeTitle">
+      <div class="welcome-card">
+        <div class="welcome-icon"><i data-lucide="sparkles"></i></div>
+        <div><p class="eyebrow">WELCOME TO MY SPACE</p><h2 id="welcomeTitle">Welcome to <span class="gradient-text">AB_devos</span></h2><p class="welcome-copy">Explore my skills, projects, and ideas. Let's create something useful together.</p></div>
+        <button id="welcomeButton" class="button button-primary"><i data-lucide="hand"></i> Say Welcome</button>
+      </div>
+      <p id="welcomeMessage" class="welcome-message" aria-live="polite"></p>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Building things for the <span class="gradient-text">digital world.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-card glass-card reveal">
+          <div class="about-symbol"><i data-lucide="user-round"></i></div>
+          <h3>Who I Am</h3>
+          <p>I'm Abebe Manaye, a software engineering student and developer interested in building useful web applications, full-stack systems, and mobile apps. I enjoy learning new tools and turning ideas into working products.</p>
+          <p class="edit-note">Personalize this description in <code>index.html</code>.</p>
+        </div>
+        <div class="about-facts reveal">
+          <div class="fact"><span class="fact-icon"><i data-lucide="map-pin"></i></span><div><small>Location</small><b>Ethiopia</b></div></div>
+          <div class="fact"><span class="fact-icon"><i data-lucide="briefcase-business"></i></span><div><small>Focus</small><b>Web, Full-Stack & App Development</b></div></div>
+          <div class="fact"><span class="fact-icon"><i data-lucide="graduation-cap"></i></span><div><small>Education</small><b>Software Engineering</b></div></div>
+          <div class="fact"><span class="fact-icon"><i data-lucide="target"></i></span><div><small>Goal</small><b>Build useful digital solutions</b></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">WHAT I WORK WITH</p><h2>My <span class="gradient-text">skills & tools</span></h2><p class="section-subtitle">Starter examples — update these as your skills grow.</p></div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><span class="skill-icon orange">5</span><b>HTML5</b><small>Structure</small></div>
+        <div class="skill-card reveal"><span class="skill-icon blue">#</span><b>CSS3</b><small>Design & layout</small></div>
+        <div class="skill-card reveal"><span class="skill-icon yellow">JS</span><b>JavaScript</b><small>Interactions</small></div>
+        <div class="skill-card reveal"><span class="skill-icon cyan">R</span><b>Responsive UI</b><small>Mobile-first</small></div>
+        <div class="skill-card reveal"><span class="skill-icon purple"><i data-lucide="git-branch"></i></span><b>Git & GitHub</b><small>Version control</small></div>
+        <div class="skill-card reveal"><span class="skill-icon green"><i data-lucide="smartphone"></i></span><b>App Development</b><small>Learning & building</small></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading section-heading-row reveal">
+        <div><p class="eyebrow">SELECTED WORK</p><h2>Featured <span class="gradient-text">projects</span></h2><p class="section-subtitle">Replace sample cards with your real projects and repository links.</p></div>
+        <a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">View GitHub <i data-lucide="arrow-up-right"></i></a>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-art art-one"><div class="mini-window"><div class="window-dots"><b></b><b></b><b></b></div><div class="mock-layout"><span></span><div><i></i><i></i><i></i></div></div></div><span class="art-label">STUDENT SYSTEM</span></div><div class="project-content"><div class="project-title"><h3>Student Mark System</h3><i data-lucide="arrow-up-right"></i></div><p>A web application concept for organizing student information and marks.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <i data-lucide="github"></i></a></div></article>
+        <article class="project-card reveal"><div class="project-art art-two"><div class="browser-mock"><div class="browser-bar"></div><div class="browser-content"><span></span><b></b><i></i></div></div><span class="art-label">PERSONAL BRAND</span></div><div class="project-content"><div class="project-title"><h3>Developer Portfolio</h3><i data-lucide="arrow-up-right"></i></div><p>A responsive personal website with animated elements and project highlights.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <i data-lucide="github"></i></a></div></article>
+        <article class="project-card reveal"><div class="project-art art-three"><div class="mobile-mock"><div class="mobile-notch"></div><span></span><i></i><i></i><b></b></div><span class="art-label">MOBILE EXPERIENCE</span></div><div class="project-content"><div class="project-title"><h3>Mobile App Concept</h3><i data-lucide="arrow-up-right"></i></div><p>A placeholder for a mobile app project. Add your real features and screenshots.</p><div class="tag-list"><span>UI Design</span><span>Mobile</span><span>Prototype</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <i data-lucide="github"></i></a></div></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's build something <span class="gradient-text">great together.</span></h2><p class="section-subtitle">I'm open to learning, collaboration, and interesting projects. Reach out and say hello.</p></div>
+        <a class="button button-primary" href="https://t.me/theButcher_0" target="_blank" rel="noreferrer"><i data-lucide="send"></i> Chat on Telegram</a>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i data-lucide="linkedin"></i><span>LinkedIn</span></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i data-lucide="instagram"></i><span>Instagram</span></a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i data-lucide="facebook"></i><span>Facebook</span></a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer"><i data-lucide="music-2"></i><span>TikTok</span></a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer"><i data-lucide="github"></i><span>GitHub</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">AB<span>.</span></span><span>AB_devos</span></a><p>© <span id="year"></span> Abebe Manaye. Built with HTML, CSS & JavaScript.</p><a class="back-top" href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
